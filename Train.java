@@ -1,0 +1,27 @@
+class Train{
+	static String getTrainName(int trainName){
+		System.out.println("invoking the getTrainName  by Train");
+		if(trainName>=1000){
+		if(11013==trainName){
+				System.out.println("the train number is "+trainName);
+			return "Shatabdi";
+		}
+			if(11014==trainName){
+				System.out.println("the train number is "+trainName);
+			return "Chickmangulr EXpress";
+			}
+			if(12134==trainName){
+				System.out.println("the train number is "+trainName);
+			return "bangalore EXpress";
+			}
+			if(22691==trainName){
+				System.out.println("the train number is"+trainName);
+			return "mysore express";
+			}
+		}
+		else{
+			System.out.println("given train number is invalid");
+		}
+		return "janshatabdi";
+	}
+}

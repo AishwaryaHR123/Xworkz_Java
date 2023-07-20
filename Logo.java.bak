@@ -1,0 +1,152 @@
+class Logo{
+	String color;
+	String use;
+	String shape;
+	String type;
+	float length;
+	String type1;
+	float width;
+	String color1;
+	String name;
+	
+	Logo(){
+		System.out.println("invoking no arguments");
+	}
+	Logo(String color)
+	{
+		System.out.println("Passing color:"+color);
+		this.color=color;
+		
+	}
+	
+	Logo(String color,String use)
+	{
+		System.out.println("Passing color:"+color);
+		System.out.println("Passing use:"+use);
+		this.color=color;
+		this.use=use;
+		
+	}
+	
+	Logo(String color,String use,String shape)
+	{
+		System.out.println("Passing color:"+color);
+		System.out.println("Passing use:"+use);
+		System.out.println("Passing Shape:"+shape);
+		this.color=color;
+		this.use=use;
+		this.shape=shape;
+		
+	}
+	
+	Logo(String color,String use,String shape,String type)
+	{
+		System.out.println("Passing color:"+color);
+		System.out.println("Passing use:"+use);
+		System.out.println("Passing Shape:"+shape);
+		System.out.println("Passing Type:"+type);
+		this.color=color;
+		this.use=use;
+		this.shape=shape;
+		this.type=type;
+		
+	}
+	
+	Logo(String color,String use,String shape,String type,float length)
+	{
+		System.out.println("Passing color:"+color);
+		System.out.println("Passing use:"+use);
+		System.out.println("Passing Shape:"+shape);
+		System.out.println("Passing Type:"+type);
+		System.out.println("Passing Length:"+length);
+		this.color=color;
+		this.use=use;
+		this.shape=shape;
+		this.type=type;
+		this.length=length;
+		
+	}
+	
+	Logo(String color,String use,String shape,String type,float length,String type1)
+	{
+		System.out.println("Passing color:"+color);
+		System.out.println("Passing use:"+use);
+		System.out.println("Passing Shape:"+shape);
+		System.out.println("Passing Type:"+type);
+		System.out.println("Passing Length:"+length);
+		System.out.println("Passing Type1:"+type1);
+		this.color=color;
+		this.use=use;
+		this.shape=shape;
+		this.type=type;
+		this.length=length;
+		this.type1=type1;
+	
+	}
+	
+	Logo(String color,String use,String shape,String type,float length,String type1,float width)
+	{
+		System.out.println("Passing color:"+color);
+		System.out.println("Passing use:"+use);
+		System.out.println("Passing Shape:"+shape);
+		System.out.println("Passing Type:"+type);
+		System.out.println("Passing Length:"+length);
+		System.out.println("Passing Type1:"+type1);
+		System.out.println("Passing Width:"+width);
+		this.color=color;
+		this.use=use;
+		this.shape=shape;
+		this.type=type;
+		this.length=length;
+		this.type1=type1;
+		this.width=width;
+		
+	}
+	Logo(String color,String use,String shape,String type,float length,String type1,float width,String color1)
+	{
+		System.out.println("Passing color:"+color);
+		System.out.println("Passing use:"+use);
+		System.out.println("Passing Shape:"+shape);
+		System.out.println("Passing Type:"+type);
+		System.out.println("Passing Length:"+length);
+		System.out.println("Passing Type1:"+type1);
+		System.out.println("Passing Width:"+width);
+		System.out.println("Passing color1:"+color1);
+		this.color=color;
+		this.use=use;
+		this.shape=shape;
+		this.type=type;
+		this.length=length;
+		this.type1=type1;
+		this.width=width;
+		this.color1=color1;
+		
+	}
+	
+	
+	Logo(String color,String use,String shape,String type,float length,String type1,float width,String color1,String name)
+	{
+		System.out.println("Passing color:"+color);
+		System.out.println("Passing use:"+use);
+		System.out.println("Passing Shape:"+shape);
+		System.out.println("Passing Type:"+type);
+		System.out.println("Passing Length:"+length);
+		System.out.println("Passing Type1:"+type1);
+		System.out.println("Passing Width:"+width);
+		System.out.println("Passing color1:"+color1);
+		System.out.println("Passing Name:"+name);
+		this.color=color;
+		this.use=use;
+		this.shape=shape;
+		this.type=type;
+		this.length=length;
+		this.type1=type1;
+		this.width=width;
+		this.color1=color1;
+		this.name=name;
+	}
+}
+		
+
+
+	

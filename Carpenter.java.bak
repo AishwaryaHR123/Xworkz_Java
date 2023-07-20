@@ -1,0 +1,14 @@
+class Carpenter{
+	static void clean(String skills)
+	{
+		System.out.println("invoking skills in carpenter :" +skills);
+	}
+	static void clean(int skills)
+	{
+		System.out.println("invoking painting in carpenter :" +skills);
+	}
+	static void experience(
+	
+	
+		
+		

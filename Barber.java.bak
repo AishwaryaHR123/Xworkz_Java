@@ -1,0 +1,86 @@
+class Barber{
+	static void cutting()
+	{
+		System.out.println("running main in the cutting");
+	}
+	static void shaving()
+	{
+		System.out.println("running main in the shaving");
+	}
+	static void trimming()
+	{
+		System.out.println("running main in the trimming");
+	}
+	static void blending()
+	{
+		System.out.println("running main in the blending");
+	}
+	static void manicure()
+	{
+		System.out.println("running main in the manicure");
+	}
+	static void layering()
+	{
+		System.out.println("running main in the layering");
+	}
+	static void fading()
+	{
+		System.out.println("running main in the fading");
+	}
+	static void thinning()
+	{
+		System.out.println("running main in the thinning");
+	}
+	static void texturizing()
+	{
+		System.out.println("running main in the texturizing");
+	}
+	static void facial()
+	{
+		System.out.println("running main in the facial");
+	}
+	static void mustacheGrooming()
+	{
+		System.out.println("running main in the mustacheGrooming");
+	}
+	static void hairColoring()
+	{
+		System.out.println("running main in the hairColoring");
+	}
+	static void deepConditioning()
+	{
+		System.out.println("running main in the deepConditioning");
+	}
+	static void scalpMassage()
+	{
+		System.out.println("running main in the scalpMassage");
+	}
+	static void eyebrowTrimming()
+	{
+		System.out.println("running main in the eyebrowTrimming");
+	}
+	static void hairOutlining()
+	{
+		System.out.println("running main in the hairOutlining");
+	}
+	static void razorCutting()
+	{
+		System.out.println("running main in the razorCutting");
+	}
+	static void tapering()
+	{
+		System.out.println("running main in the tapering");
+	}
+	static void hairShaping()
+	{
+		System.out.println("running main in the hairShaping");
+	}
+	static void headWash()
+	{
+		System.out.println("running main in the headWash");
+	}
+	static void pedicure()
+	{
+		System.out.println("running main in the pedicure");
+	}
+	

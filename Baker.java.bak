@@ -1,0 +1,59 @@
+class Baker{
+	static void cooking(String foodItem,int noOfpeople,String workingFor,int experience,int duration,int assitance)
+	{
+		if(foodItem!=null)
+		{
+			System.out.println("condition is valid: "+foodItem);
+		}
+		else
+		{
+			System.err.println("condition is invalid: "+foodItem);
+			return;
+		}
+		if(noOfpeople>=5)
+		{
+			System.out.println("condition is valid: "+noOfpeople);
+		}
+		else
+		{
+			System.err.println("condition is invalid: "+noOfpeople);
+			return;
+		}
+		if(workingFor!=null)
+		{
+			System.out.println("condition is valid: "+workingFor);
+		}
+		else
+		{
+			System.err.println("condition is invalid: "+workingFor);
+			return;
+		}
+		if(experience>=2)
+		{
+			System.out.println("condition is valid: "+experience);
+		}
+		else
+		{
+			System.err.println("condition is invalid: "+experience);
+			return;
+		}
+		if(duration>=10)
+		{
+			System.out.println("condition is valid: "+duration);
+		}
+		else
+		{
+			System.err.println("condition is invalid: "+duration);
+			return;
+		}
+		if(assitance>=2)
+		{
+			System.out.println("condition is valid: "+assitance);
+		}
+		else
+		{
+			System.err.println("condition is invalid: "+assitance);
+			return;
+		}
+		
+	

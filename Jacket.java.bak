@@ -1,0 +1,11 @@
+class Jacket{
+	String brand;
+	String color;
+	int size;
+	float price;
+	String type;
+	Jacket()
+	{
+		System.out.println("invoking const in jacket);
+	}
+}

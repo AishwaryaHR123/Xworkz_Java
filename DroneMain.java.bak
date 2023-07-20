@@ -1,0 +1,8 @@
+class DroneMain{
+	public static void main(String[] args)
+	{
+		System.out.println("invoking DroneMain in the main");
+		double ref=Drone.getDistanceByFlight("ASA","googlemeetings");
+		System.out.println("ref is: "+ref);
+	}
+}

@@ -1,0 +1,44 @@
+class PocketKiller{
+	public static void main(String[] values)
+	{
+		System.out.println("running main in the PocketKiller");
+		Pocket pocket1=new Pocket();
+		System.out.println(pocket1.brand);
+		System.out.println(pocket1.money);
+		System.out.println(pocket1.color);
+		System.out.println(pocket1.card);
+		System.out.println(pocket1.cost);
+		
+		System.out.println("=======================");
+		pocket1.brand="Gucci";
+		pocket1.money=28.00f;
+		pocket1.color="black";
+		pocket1.card="ATM";
+		pocket1.cost=5000.00f;
+		System.out.println(pocket1.brand);
+		System.out.println(pocket1.size);
+		System.out.println(pocket1.color);
+		System.out.println(pocket1.price);
+		System.out.println(pocket1.type);
+		
+		System.out.println("----------------pocket2-------------------");
+		Pocket pocket2=new Pocket();
+		System.out.println(pocket2.brand);
+		System.out.println(pocket2.money);
+		System.out.println(pocket2.color);
+		System.out.println(pocket2.card);
+		System.out.println(pocket2.cost);
+		
+		System.out.println("=======================");
+		pocket2.brand="Fossil";
+		pocket2.money=2800.00f;
+		pocket2.color="blue";
+		pocket2.card="credit";
+		pocket2.cost=2000.00f;
+		System.out.println(pocket2.brand);
+		System.out.println(pocket2.size);
+		System.out.println(pocket2.color);
+		System.out.println(pocket2.price);
+		System.out.println(pocket2.type);
+	}
+}

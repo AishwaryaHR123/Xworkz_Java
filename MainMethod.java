@@ -1,0 +1,60 @@
+class MainMethod{
+	public static void main(String[] args)
+	{
+		System.out.println("invoking cake in MainMethod");
+		int price=40;
+		int noOfPieces=1;
+		Cake.tasty("Pastery ","cold","iyengar",price,noOfPieces,"Birthday");
+		
+		System.out.println("........................................................");
+		
+		System.out.println("invoking camera in MainMethod");
+		int date=7;
+		int howManyPeople=3;
+		Camera.click("bangalore",date,howManyPeople,"48MP","HD","Anusha");
+		
+		System.out.println("........................................................");
+		
+		System.out.println("invoking Fridge in MainMethod");
+		Fridge.store("Vegetables","Fruits","Ice-Cream","Curd","Milk","Juice","Egg","Cake","Sweets","water");
+		
+		System.out.println("........................................................");
+		System.out.println("invoking Baker in MainMethod");
+		int noOfPeople=5;
+		int experience=2;
+		Baker.cooking("EggPuff",noOfPeople,"Bakery",experience,10,2);
+		
+		System.out.println("........................................................");
+		System.out.println("invoking Oven in MainMethod");
+		Oven.ovenInfo("LG",6000,"Black");
+		
+		System.out.println("........................................................");
+		System.out.println("invoking weighmachine in MainMethod");
+		WeighMachine.machineInfo("Active",7000,27);
+		
+		System.out.println("........................................................");
+		System.out.println("invoking Kulfi in MainMethod");
+		Kulfi.kulfiInfo("pista",50,"green");
+		
+		System.out.println("........................................................");
+		System.out.println("invoking GoldSmith in MainMethod");
+		long contact=9905167450l;
+		int experience1=3;
+		GoldSmith.goldInfo(experience1,"rajajinagar",contact);
+		
+		System.out.println("........................................................");
+		System.out.println("invoking Scanner in MainMethod");
+		int cost=5000;
+		Scanner.scannerInfo("Epson",cost,"Black");
+		
+		System.out.println("........................................................");
+		System.out.println("invoking soda in MainMethod");
+		int cost1=50;
+		Soda.sodaInfo("Lime",cost1,"drink");
+		
+		System.out.println("........................................................");
+		System.out.println("invoking stove in MainMethod");
+		int price1=5000;
+		Soda.sodaInfo("prestige",price1,"Electric");	
+	}
+}

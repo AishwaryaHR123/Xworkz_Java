@@ -1,0 +1,34 @@
+class Soda{
+	static void sodaInfo(String flavour, int cost,String type)
+	{
+		if(flavour!=null)
+		{
+			System.out.println("condition is valid: "+flavour);
+		}
+		else
+		{
+			System.err.println("condition is invalid: "+flavour);
+			return;
+		}
+		if(cost<=50)
+		{
+			System.out.println("condition is valid: "+cost);
+		}
+		else
+		{
+			System.err.println("condition is invalid: "+cost);
+			return;
+		}
+		if(type!=null)
+		{
+			System.out.println("condition is valid: "+type);
+		}
+		else
+		{
+			System.err.println("condition is invalid: "+type);
+			return;
+		}
+		System.err.println("soda Information");
+	}
+}
+		

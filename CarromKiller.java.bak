@@ -1,0 +1,43 @@
+class CarromKiller{
+	public static void main(String[] args)
+	{
+		Carrom carrom =new Carrom();
+		System.out.println(carrom.material);
+		System.out.println(carrom.noOfPlayer);
+		System.out.println(carrom.name);
+		System.out.println(carrom.price);
+		System.out.println(carrom.coinColor);
+		
+		System.out.println("....................................");
+		Carrom carrom1=new Carrom("PlyWood")
+		System.out.println(carrom1.material);
+		System.out.println("....................................");
+		
+		Carrom carrom2=new Carrom("PlyWood",1);
+		System.out.println(carrom2.material);
+		System.out.println(carrom2.noOfPlayer);
+		System.out.println("....................................");
+		
+		Carrom carrom3=new Carrom("PlyWood",4,"Synco CarromBoard");
+		System.out.println(carrom3.material);
+		System.out.println(carrom3.noOfPlayer);
+		System.out.println(carrom3.name);
+		System.out.println("....................................");
+		
+		Carrom carrom4=new Carrom("Wood",3,"Synco CarromBoard",600);
+		System.out.println(carrom4.material);
+		System.out.println(carrom4.noOfPlayer);
+		System.out.println(carrom4.name);
+		System.out.println(carrom4.price);
+		System.out.println("....................................");
+		
+		Carrom carrom5=new Carrom("PlyWood",2,"Synco CarromBoard",500,"Red");
+		System.out.println(carrom5.material);
+		System.out.println(carrom5.noOfPlayer);
+		System.out.println(carrom5.name);
+		System.out.println(carrom5.price);
+		System.out.println(carrom5.coinColor);
+	}
+}
+	
+	

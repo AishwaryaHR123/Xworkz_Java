@@ -1,0 +1,10 @@
+class Gym{
+	String trainer;
+	String trainee;
+	int cost;
+	String duration;
+	String component;
+	Gym(){
+	}
+}
+	

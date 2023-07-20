@@ -1,0 +1,34 @@
+class Job{
+	static void apply(){
+		System.out.println("invoking apply in job");
+		String personName="Aishwarya";
+		int experience=3;
+		String refName="anusha";
+		System.out.println("Job Role "+personName);
+		System.out.println("experience"+experience);
+		System.out.println("RefName"+refName);
+	}
+	static void apply(String personName,int experience)
+	{
+		System.out.println("invoking apply in job");
+		System.out.println("invoking apply(personName) in job: "+personName);
+		System.out.println("invoking apply(experience) in job :"+experience);
+	}
+	static void apply(String name,int exp,String refName)
+	{
+		System.out.println("invoking apply in job");
+		System.out.println("invoking apply(String name) in job: "+name);
+		System.out.println("invoking apply(int experience) in job :"+exp);
+		System.out.println("invoking apply(string refName) in job :"+refName);
+	}
+	static void apply (int experience)
+	{
+		System.out.println("invoking apply in job");
+		System.out.println("invoking apply(experience) in job :"+experience);
+	}
+	static void rejectOffer(){
+		System.out.println("invoking rejectOffer in job");
+	}
+
+}
+		

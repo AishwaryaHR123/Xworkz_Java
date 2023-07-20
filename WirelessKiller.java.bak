@@ -1,0 +1,16 @@
+class WirelessKiller{
+	public static void main(String[] args){
+		System.out.println("running main in the WirelessKiller");
+		WirelessController controller1=new WirelessController();
+		System.out.println(controller1.battery);
+		System.out.println(controller1.technology);
+		System.out.println(controller1.inputControl);
+		System.out.println(controller1.compatability);
+		System.out.println(controller1.function);
+		controller1.battery="Rechargeable";
+		controller1.technology="WI_FI";
+		controller1.inputControl="Button";
+		controller1.compatability="PCs";
+		controller1.function="jumping";
+		
+		

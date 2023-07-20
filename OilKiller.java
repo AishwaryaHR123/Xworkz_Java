@@ -1,0 +1,26 @@
+class OilKiller
+{
+	public static void main(String[] args)
+	{
+		System.out.println("running main in oilKiller");
+		Oil oil=new Oil();
+		System.out.println(oil.name);
+		System.out.println(oil.brand);
+		System.out.println(oil.quantity);
+		
+		System.out.println("....................................");
+		Oil oil1=new Oil("Sunflower");
+		System.out.println(oil1.name);
+	
+		System.out.println("....................................");
+		Oil oil2=new Oil("Palm","Gold Winner");
+		System.out.println(oil2.name);
+		System.out.println(oil2.brand);
+		
+		System.out.println("....................................");
+		Oil oil3=new Oil("Olive","Parachute",100);
+		System.out.println(oil3.name);
+		System.out.println(oil3.brand);
+		System.out.println(oil3.quantity);
+	}
+}

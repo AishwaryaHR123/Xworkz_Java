@@ -1,0 +1,29 @@
+class Mobile{
+	public static void main (String[] args){
+		System.out.println("Mobile Information ");
+		String mobileType="Screentouch";
+		float height=5.65f;
+		float width=2.79f;
+		float depth=7.7f;
+		float weight=6.24f;
+		String colour="Black";
+		String storageram="4Gb";
+		String brand="Redmi";
+		String storage="64Gb";
+		String wifi="1Mbps";
+		String camera="48MP";
+		String sim1="Airtel";
+		String sim2="jio";
+		byte highvolume=16;
+		byte lowvolume=5;
+		String fontsize="16px";
+		String network="4g";
+		float price=18.500f;
+		String version="MIUI";
+		String display="lightmode";
+		System.out.println("MobileType: "+mobileType);
+		System.out.println("Height: "+height);
+		System.out.println("Width: "+width);
+		System.out.println("Depth: "+depth);
+		System.out.println("Weight: "+weight);
+		

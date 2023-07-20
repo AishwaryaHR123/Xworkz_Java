@@ -1,0 +1,40 @@
+class Fabric {
+	static float getPrice(float price){
+	System.out.println("Given price is  valid");
+	if(price>=0){
+	if (567==price){
+	System.out.println("Given price of the cotton "+price);
+		return 567;
+	}
+	if (444==price){
+			System.out.println("Given price of the nylon "+price);
+
+		return 444;
+	}
+	if (987==price){
+			System.out.println("Given price of the woolen "+price);
+
+		return 987;
+	}
+	if (456==price){
+			System.out.println("Given price of the linen "+price);
+
+		return 456;
+	}
+	if (765==price){
+			System.out.println("Given price of the polyster "+price);
+
+		return 765;
+	}
+	if (67==price){
+			System.out.println("Given price of the skilk "+price);
+
+		return 67;
+	}
+	}
+	else{
+ System.out.println("Given price  is not valid");
+	}
+	return 76;
+}
+}

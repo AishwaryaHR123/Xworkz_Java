@@ -1,0 +1,51 @@
+class PersonMail{
+	static String getEmailByName(String name){
+		if(name != null){
+			
+			if(name == "jeevitha"){
+				System.out.println("Name is: " + name);
+				return "jeevitha9071@gmail.com";
+			}
+			if(name == "sonu"){
+				System.out.println("Name is: " + name);
+				return "sonu87@gmail.com";
+			}
+			if(name == "rani"){
+				System.out.println("Name is: " + name);
+				return "rani@gmail.com";
+			}
+			if(name == "sushma"){
+				System.out.println("Name is: " + name);
+				return "sushma@gmail.com";
+			}
+			if(name == "shivu"){
+				System.out.println("Name is: " + name);
+				return "shivu@gmail.com";
+			}
+			if(name == "spoorthi"){
+				System.out.println("Name is: " + name);
+				return "spoorthi@gmail.com";
+			}
+			if(name == "sagar"){
+				System.out.println("Name is: " + name);
+				return "sagar@gmail.com";
+			}
+			if(name == "kavya"){
+				System.out.println("Name is: " + name);
+				return "kavya@gmail.com";
+			}
+			if(name == "shilpa"){
+				System.out.println("Name is: " + name);
+				return "shilpa@gmail.com";
+			}
+			if(name == "roopa"){
+				System.out.println("Name is: " + name);
+				return "roopa@gmail.com";
+			}
+		}
+		else{
+			System.out.println("Name given is not valid");
+		}
+		return "Email";
+	}
+}

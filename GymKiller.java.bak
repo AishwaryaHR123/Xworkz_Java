@@ -1,0 +1,17 @@
+class GymKiller{
+	public static void main(String[] args)
+	{
+		System.out.println("running main in the GymKiller");
+		Gym gym1=new Gym();
+		System.out.println(gym1.trainer);
+		System.out.println(gym1.trainee);
+		System.out.println(gym1.cost);
+		System.out.println(gym1.duration);
+		System.out.println(gym1.component);
+		gym1.trainer="Punith";
+		gym1.trainee="Aishu";
+		gym1.cost=5000;
+		gym1.duration="one-month";
+		gym1.component="Dumbbells";
+		
+		

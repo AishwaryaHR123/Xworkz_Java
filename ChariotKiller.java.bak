@@ -1,0 +1,126 @@
+class ChariotKiller{
+	public static void main(String[] args){
+		Chariot chariot=new Chariot();
+		System.out.println(Chariot.type);
+		System.out.println(Chariot.animal);
+		System.out.println(Chariot.purpose);
+		System.out.println(Chariot.name);
+		System.out.println(Chariot.name1);
+		System.out.println(Chariot.carry);
+		System.out.println(Chariot.driver);
+		System.out.println(Chariot.carry1);
+		System.out.println(Chariot.wheel);
+		System.out.println(Chariot.material);
+		System.out.println(Chariot.material1);
+		
+		System.out.println("....................................");
+		Chariot chariot1=new Chariot("open vehicle");
+		System.out.println(Chariot1.type);
+		
+		
+		System.out.println("....................................");
+		Chariot chariot2=new Chariot("open vehicle","Horse");
+		System.out.println(Chariot2.type);
+		System.out.println(Chariot2.animal);
+		
+		
+		System.out.println("....................................");
+		Chariot chario3=new Chariot("open vehicle","Horse","Transport");
+		System.out.println(Chariot3.type);
+		System.out.println(Chariot3.animal);
+		System.out.println(Chariot3.purpose);
+		
+		
+		System.out.println("....................................");
+		Chariot chariot4=new Chariot("open vehicle","Horse","Transport","Ratha");
+		System.out.println(Chariot4.type);
+		System.out.println(Chariot4.animal);
+		System.out.println(Chariot4.purpose);
+		System.out.println(Chariot4.name);
+		
+		
+		System.out.println("....................................");
+		Chariot chariot5=new Chariot("open vehicle","Horse","Transport","Ratha","Quadriga");
+		System.out.println(Chariot5.type);
+		System.out.println(Chariot5.animal);
+		System.out.println(Chariot5.purpose);
+		System.out.println(Chariot5.name);
+		System.out.println(Chariot5.name1);
+		
+		
+		System.out.println("....................................");
+		Chariot chariot6=new Chariot("open vehicle","Horse","Transport","Ratha","Quadriga","person");
+		System.out.println(chariot6.type);
+		System.out.println(chariot6.animal);
+		System.out.println(chariot6.purpose);
+		System.out.println(chariot6.name);
+		System.out.println(chariot6.name1);
+		System.out.println(chariot6.carry);
+		
+		
+		System.out.println("....................................");
+		Chariot chariot7=new Chariot("open vehicle","Horse","Transport","Ratha","Quadriga","person",1);
+		System.out.println(chariot7.type);
+		System.out.println(chariot7.animal);
+		System.out.println(chariot7.purpose);
+		System.out.println(chariot7.name);
+		System.out.println(chariot7.name1);
+		System.out.println(chariot7.carry);
+		System.out.println(chariot7.driver);
+		
+		
+		System.out.println("....................................");
+		Chariot chariot8=new Chariot("open vehicle","Horse","Transport","Ratha","Quadriga","person",1,"Things");
+		System.out.println(chariot8.type);
+		System.out.println(chariot8.animal);
+		System.out.println(chariot8.purpose);
+		System.out.println(chariot8.name);
+		System.out.println(chariot8.name1);
+		System.out.println(chariot8.carry);
+		System.out.println(chariot8.driver);
+		System.out.println(chariot8.carry1);
+		
+		
+		
+		System.out.println("....................................");
+		Chariot chariot9=new Chariot("open vehicle","Horse","Transport","Ratha","Quadriga","person",1,"Things",2);
+		System.out.println(chariot9.type);
+		System.out.println(chariot9.animal);
+		System.out.println(chariot9.purpose);
+		System.out.println(chariot9.name);
+		System.out.println(chariot9.name1);
+		System.out.println(chariot9.carry);
+		System.out.println(chariot9.driver);
+		System.out.println(chariot9.carry1);
+		System.out.println(chariot9.wheel);
+		
+		
+		System.out.println("....................................");
+		Chariot chariot10=new Chariot("open vehicle","Horse","Transport","Ratha","Quadriga","person",1,"Things",2,"Wood Slats");
+		System.out.println(chariot10.type);
+		System.out.println(chariot10.animal);
+		System.out.println(chariot10.purpose);
+		System.out.println(chariot10.name);
+		System.out.println(chariot10.name1);
+		System.out.println(chariot10.carry);
+		System.out.println(chariot10.driver);
+		System.out.println(chariot10.carry1);
+		System.out.println(chariot10.wheel);
+		System.out.println(chariot10.material);
+		
+		System.out.println("....................................");
+		Chariot chariot11=new Chariot("open vehicle","Horse","Transport","Ratha","Quadriga","person",1,"Things",2,"Wood Slats","Leather");
+		System.out.println(chariot11.type);
+		System.out.println(chariot11.animal);
+		System.out.println(chariot11.purpose);
+		System.out.println(chariot11.name);
+		System.out.println(chariot11.name1);
+		System.out.println(chariot11.carry);
+		System.out.println(chariot11.driver);
+		System.out.println(chariot11.carry1);
+		System.out.println(chariot11.wheel);
+		System.out.println(chariot11.material);
+		System.out.println(chariot11.material1);
+	}
+}
+		

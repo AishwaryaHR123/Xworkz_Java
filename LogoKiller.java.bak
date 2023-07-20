@@ -1,0 +1,97 @@
+class LogoKiller{
+	public static void main(String[] args)
+	{
+		Logo logo=new Logo();
+		System.out.println(logo.color);
+		System.out.println(logo.use);
+		System.out.println(logo.shape);
+		System.out.println(logo.type);
+		System.out.println(logo.length);
+		System.out.println(logo.type1);
+		System.out.println(logo.width);
+		System.out.println(logo.color1);
+		System.out.println(logo.name);
+		
+		System.out.println(".......................................");
+		Logo logo1=new Logo("Blue");
+		System.out.println(logo1.color);
+		
+		
+		System.out.println(".......................................");
+		Logo logo2=new Logo("Blue","Indentify");
+		System.out.println(logo2.color);
+		System.out.println(logo2.use);
+		
+		
+		System.out.println(".......................................");
+		Logo logo3=new Logo("Blue","Indentify","Round");
+		System.out.println(logo3.color);
+		System.out.println(logo3.use);
+		System.out.println(logo3.shape);
+		
+		
+		System.out.println(".......................................");
+		Logo logo4=new Logo("Blue","Indentify","Round","Company");
+		System.out.println(logo4.color);
+		System.out.println(logo4.use);
+		System.out.println(logo4.shape);
+		System.out.println(logo4.type);
+		
+		System.out.println(".......................................");
+		Logo logo5=new Logo("Blue","Indentify","Round","Company",2);
+		System.out.println(logo5.color);
+		System.out.println(logo5.use);
+		System.out.println(logo5.shape);
+		System.out.println(logo5.type);
+		System.out.println(logo5.length);
+		
+		
+		System.out.println(".......................................");
+		Logo logo6=new Logo("Blue","Indentify","Round","Company",2,"college");
+		System.out.println(logo6.color);
+		System.out.println(logo6.use);
+		System.out.println(logo6.shape);
+		System.out.println(logo6.type);
+		System.out.println(logo6.length);
+		System.out.println(logo6.type1);
+		
+		
+		System.out.println(".......................................");
+		Logo logo7=new Logo("Blue","Indentify","Round","Company",2,"college",4);
+		System.out.println(logo7.color);
+		System.out.println(logo7.use);
+		System.out.println(logo7.shape);
+		System.out.println(logo7.type);
+		System.out.println(logo7.length);
+		System.out.println(logo7.type1);
+		System.out.println(logo7.width);
+		
+		
+		System.out.println(".......................................");
+		Logo logo8=new Logo("Blue","Indentify","Round","Company",2,"college",4,"Black");
+		System.out.println(logo8.color);
+		System.out.println(logo8.use);
+		System.out.println(logo8.shape);
+		System.out.println(logo8.type);
+		System.out.println(logo8.length);
+		System.out.println(logo8.type1);
+		System.out.println(logo8.width);
+		System.out.println(logo8.color1);
+		
+		System.out.println(".......................................");
+		Logo logo9=new Logo("Blue","Indentify","Round","Company",2,"college",4,"Black","Xworkz");
+		System.out.println(logo9.color);
+		System.out.println(logo9.use);
+		System.out.println(logo9.shape);
+		System.out.println(logo9.type);
+		System.out.println(logo9.length);
+		System.out.println(logo9.type1);
+		System.out.println(logo9.width);
+		System.out.println(logo9.color1);
+		System.out.println(logo.name);
+	}
+}
+		
+		
+		
+		

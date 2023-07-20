@@ -1,0 +1,17 @@
+class Police{
+	String policeName="Punith Kumar";
+	int age=35;
+	int experience=14;
+	Police()
+	{
+		System.out.println("policename is:"+this.policeName);
+		System.out.println("age is:"+this.age);
+		System.out.println("Experience is:"+this.experience);
+	}
+	Police (String PoliceName,int age,int experience)
+	{
+		System.out.println("policename is:"+this.policeName);
+		System.out.println("age is:"+this.age);
+		System.out.println("Experience is:"+this.experience);
+	}
+}

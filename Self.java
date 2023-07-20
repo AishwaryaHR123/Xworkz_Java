@@ -1,0 +1,11 @@
+class Self{
+	public static void main (String[] args)
+	{
+		System.out.println("My self Aishwarya");
+		System.out.println("I completed my BE in PESITM");
+		System.out.println("my native place is nallur");
+		System.out.println("i am 21 years old");
+		System.out.println("i completed my primary education in my nallur");
+	}
+}
+	

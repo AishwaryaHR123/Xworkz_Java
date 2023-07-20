@@ -1,0 +1,87 @@
+class Mechanic{
+	static void maintenance()
+	{
+		System.out.println("running main in the maintenance");
+	}
+	static void repair()
+	{
+		System.out.println("running main in the repair");
+	}
+	static void inspection()
+	{
+		System.out.println("running main in the inspection");
+	}
+	static void diagonistic()
+	{
+		System.out.println("running main in the diagonistic");
+	}
+	static void wheelAlignment()
+	{
+		System.out.println("running main in the wheelAlignment");
+	}
+	static void tierBalancing()
+	{
+		System.out.println("running main in the tierBalancing");
+	}
+	static void brakeService()
+	{
+		System.out.println("running main in the brakeService");
+	}
+	static void suspensionWork()
+	{
+		System.out.println("running main in the suspensionWork");
+	}
+	static void electricalRepair()
+	{
+		System.out.println("running main in the electricalRepair");
+	}
+	static void coolingSystem()
+	{
+		System.out.println("running main in the coolingSystem");
+	}
+	static void airConditioning()
+	{
+		System.out.println("running main in the airConditioning");
+	}
+	static void transmission()
+	{
+		System.out.println("running main in the transmission");
+	}
+	static void exhaustSystem()
+	{
+		System.out.println("running main in the exhaustSystem");
+	}
+	static void failSystem()
+	{
+		System.out.println("running main in the failSystem");
+	}
+	static void engineRebuilding()
+	{
+		System.out.println("running main in the engineRebuilding");
+	}
+	static void weilding()
+	{
+		System.out.println("running main in the weilding");
+	}
+	static void fabrication()
+	{
+		System.out.println("running main in the fabrication");
+	}
+	static void bodyWork()
+	{
+		System.out.println("running main in the bodyWork");
+	}
+	static void glassReplacement()
+	{
+		System.out.println("running main in the glassReplacement");
+	}
+	static void wheelReplacement()
+	{
+		System.out.println("running main in the wheelReplacement");
+	}
+	static void painting()
+	{
+		System.out.println("running main in the painting");
+	}
+}
+	

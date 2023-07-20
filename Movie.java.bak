@@ -1,0 +1,10 @@
+class Movie{
+	public static void main (String[] args)
+	{
+		System.out.println("Movie name is bahubali");
+		System.out.println("Favorite movie is three idoiots");
+		System.out.println("Horror movies are scary");
+		System.out.println("movie is a source for entertainment");
+		System.out.println("KGF movie rating was good");
+	}
+}

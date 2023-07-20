@@ -1,0 +1,222 @@
+class Chariot{
+	String type;
+	String animal;
+	String purpose;
+	String name;
+	String name1;
+	String carry;
+	int driver;
+	String carry1;
+	int wheel;
+	String material;
+	String material1;
+	
+	Chariot()
+	{
+		System.out.println("invoking no arguments");
+	}
+	Chariot(String type)
+	{
+		System.out.println("invoking constructor of Chariot");
+		System.out.println("Passing type:"+type);
+		this.type=type;
+		
+	}
+	
+	Chariot(String type,String animal)
+	{
+		System.out.println("invoking constructor of Chariot");
+		System.out.println("Passing type:"+type);
+		System.out.println("Passing Animal:"+animal);
+		this.type=type;
+		this.animal=animal;
+		
+	}
+	
+	Chariot(String type,String animal,String purpose)
+	{
+		System.out.println("invoking constructor of Chariot");
+		System.out.println("Passing type:"+type);
+		System.out.println("Passing Animal:"+animal);
+		System.out.println("Passing Purpose:"+purpose);
+		this.type=type;
+		this.animal=animal;
+		this.purpose=purpose;
+		
+	}
+	
+	Chariot(String type,String animal,String purpose,String name)
+	{
+		System.out.println("invoking constructor of Chariot");
+		System.out.println("Passing type:"+type);
+		System.out.println("Passing Animal:"+animal);
+		System.out.println("Passing Purpose:"+purpose);
+		System.out.println("Passing Name:"+name);
+		
+		this.type=type;
+		this.animal=animal;
+		this.purpose=purpose;
+		this.name=name;
+		
+	}
+	
+	Chariot(String type,String animal,String purpose,String name,String name1)
+	{
+		System.out.println("invoking constructor of Chariot");
+		System.out.println("Passing type:"+type);
+		System.out.println("Passing Animal:"+animal);
+		System.out.println("Passing Purpose:"+purpose);
+		System.out.println("Passing Name:"+name);
+		System.out.println("Passing Name1:"+name1);
+		
+		this.type=type;
+		this.animal=animal;
+		this.purpose=purpose;
+		this.name=name;
+		this.name1=name1;
+		
+	}
+	
+	Chariot(String type,String animal,String purpose,String name,String name1,String carry)
+	{
+		System.out.println("invoking constructor of Chariot");
+		System.out.println("Passing type:"+type);
+		System.out.println("Passing Animal:"+animal);
+		System.out.println("Passing Purpose:"+purpose);
+		System.out.println("Passing Name:"+name);
+		System.out.println("Passing Name1:"+name1);
+		System.out.println("Passing Carry:"+carry);
+		
+		this.type=type;
+		this.animal=animal;
+		this.purpose=purpose;
+		this.name=name;
+		this.name1=name1;
+		this.carry=carry;
+	
+	}
+	
+	Chariot(String type,String animal,String purpose,String name,String name1,String carry,int driver)
+	{
+		System.out.println("invoking constructor of Chariot");
+		System.out.println("Passing type:"+type);
+		System.out.println("Passing Animal:"+animal);
+		System.out.println("Passing Purpose:"+purpose);
+		System.out.println("Passing Name:"+name);
+		System.out.println("Passing Name1:"+name1);
+		System.out.println("Passing Carry:"+carry);
+		System.out.println("Passing Driver:"+driver);
+		
+		this.type=type;
+		this.animal=animal;
+		this.purpose=purpose;
+		this.name=name;
+		this.name1=name1;
+		this.carry=carry;
+		this.driver=driver;
+		
+	}
+	
+	Chariot(String type,String animal,String purpose,String name,String name1,String carry,int driver,String carry1)
+	{
+		System.out.println("invoking constructor of Chariot");
+		System.out.println("Passing type:"+type);
+		System.out.println("Passing Animal:"+animal);
+		System.out.println("Passing Purpose:"+purpose);
+		System.out.println("Passing Name:"+name);
+		System.out.println("Passing Name1:"+name1);
+		System.out.println("Passing Carry:"+carry);
+		System.out.println("Passing Driver:"+driver);
+		System.out.println("Passing Carry1:"+carry1);
+		
+		this.type=type;
+		this.animal=animal;
+		this.purpose=purpose;
+		this.name=name;
+		this.name1=name1;
+		this.carry=carry;
+		this.driver=driver;
+		this.carry1=carry1;
+		
+	}
+	
+	Chariot(String type,String animal,String purpose,String name,String name1,String carry,int driver,String carry1,int wheel)
+	{
+		System.out.println("invoking constructor of Chariot");
+		System.out.println("Passing type:"+type);
+		System.out.println("Passing Animal:"+animal);
+		System.out.println("Passing Purpose:"+purpose);
+		System.out.println("Passing Name:"+name);
+		System.out.println("Passing Name1:"+name1);
+		System.out.println("Passing Carry:"+carry);
+		System.out.println("Passing Driver:"+driver);
+		System.out.println("Passing Carry1:"+carry1);
+		System.out.println("Passing Wheel:"+wheel);
+		
+		this.type=type;
+		this.animal=animal;
+		this.purpose=purpose;
+		this.name=name;
+		this.name1=name1;
+		this.carry=carry;
+		this.driver=driver;
+		this.carry1=carry1;
+		this.wheel=wheel;
+		
+	}
+	
+	Chariot(String type,String animal,String purpose,String name,String name1,String carry,int driver,String carry1,int wheel,String material)
+	{
+		System.out.println("invoking constructor of Chariot");
+		System.out.println("Passing type:"+type);
+		System.out.println("Passing Animal:"+animal);
+		System.out.println("Passing Purpose:"+purpose);
+		System.out.println("Passing Name:"+name);
+		System.out.println("Passing Name1:"+name1);
+		System.out.println("Passing Carry:"+carry);
+		System.out.println("Passing Driver:"+driver);
+		System.out.println("Passing Carry1:"+carry1);
+		System.out.println("Passing Wheel:"+wheel);
+		System.out.println("Passing Material:"+material);
+		
+		this.type=type;
+		this.animal=animal;
+		this.purpose=purpose;
+		this.name=name;
+		this.name1=name1;
+		this.carry=carry;
+		this.driver=driver;
+		this.carry1=carry1;
+		this.wheel=wheel;
+		this.material=material;
+		
+	}
+	
+	Chariot(String type,String animal,String purpose,String name,String name1,String carry,int driver,String carry1,int wheel,String material,String material1)
+	{
+		System.out.println("invoking constructor of Chariot");
+		System.out.println("Passing type:"+type);
+		System.out.println("Passing Animal:"+animal);
+		System.out.println("Passing Purpose:"+purpose);
+		System.out.println("Passing Name:"+name);
+		System.out.println("Passing Name1:"+name1);
+		System.out.println("Passing Carry:"+carry);
+		System.out.println("Passing Driver:"+driver);
+		System.out.println("Passing Carry1:"+carry1);
+		System.out.println("Passing Wheel:"+wheel);
+		System.out.println("Passing Material:"+material);
+		System.out.println("Passing Material1:"+material1);
+		this.type=type;
+		this.animal=animal;
+		this.purpose=purpose;
+		this.name=name;
+		this.name1=name1;
+		this.carry=carry;
+		this.driver=driver;
+		this.carry1=carry1;
+		this.wheel=wheel;
+		this.material=material;
+		this.material1=material1;
+	}
+}
+	

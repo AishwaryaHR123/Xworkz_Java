@@ -1,0 +1,42 @@
+class TeacherKiller{
+	public static void main(String[] args)
+	{
+		System.out.println("running main in the TeacherKiller");
+		Teacher teacher1=new Teacher();
+		System.out.println(teacher1.name);
+		System.out.println(teacher1.qualification);
+		System.out.println(teacher1.subject);
+		System.out.println(teacher1.age);
+		System.out.println(teacher1.salary);
+		teacher1.name="omkar";
+		teacher1.qualification="Mtech";
+		teacher1.subject="java";
+		teacher1.age=35;
+		teacher1.salary=35000.00f;
+		System.out.println("=======================");
+		System.out.println(teacher1.name);
+		System.out.println(teacher1.qualification);
+		System.out.println(teacher1.subject);
+		System.out.println(teacher1.age);
+		System.out.println(teacher1.salary);
+		
+		System.out.println("===========teacher2============");
+		Teacher teacher2=new Teacher();
+		System.out.println(teacher2.name);
+		System.out.println(teacher2.qualification);
+		System.out.println(teacher2.subject);
+		System.out.println(teacher2.age);
+		System.out.println(teacher2.salary);
+		teacher2.name="Raghavendra";
+		teacher2.qualification="Msc";
+		teacher2.subject="DBMS";
+		teacher2.age=40;
+		teacher2.salary=80000.00f;
+		System.out.println("=======================");
+		System.out.println(teacher2.name);
+		System.out.println(teacher2.qualification);
+		System.out.println(teacher2.subject);
+		System.out.println(teacher2.age);
+		System.out.println(teacher2.salary);
+	}
+}

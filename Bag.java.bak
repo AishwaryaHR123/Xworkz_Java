@@ -1,0 +1,9 @@
+class Bag{
+	public static void main(String[] args)
+	{
+		System.out.println("Bag Information");
+		String color="Black";
+		float price=500.00f;
+		String brand="skybags";
+		
+		
