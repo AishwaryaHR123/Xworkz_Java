@@ -15,7 +15,6 @@
 <body>
 <nav class="navbar navbar-dark bg-dark">
 <h5 class="text-white h4"> X-workz</h5>
-
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item active" aria-current="page"><a class="btn btn-primary" href="Match.jsp" role="button">Match</a></li>
@@ -23,7 +22,20 @@
   </ol>
 </nav>
 </nav>
-	<h3>Running in Index Page.....</h3>
+	<h3>Match Info Saved Successfully......</h3>
+	Tournament Name : ${pen.tournamentName} <br><br>
+	Hosting Country : ${pen.hostingCountry} <br><br>
+	Match Date : ${pen.matchDate} <br><br>
+	Team1 : ${pen.team1} <br><br>
+	Team2 : ${pen.team2} <br><br>
+	Team1 Captain Name: ${pen.team1CaptainName} <br><br>
+	Team2 Captain Name : ${pen.team2CaptainName} <br><br>
+	Umpire Name : ${pen.umpireName} <br><br>
+	Stadium Name : ${pen.stadiumName} <br><br>
+	Third Umpire Name : ${pen.thirdUmpireName} <br><br>
+	SatdiumCapacity: ${pen.stadiumCapacity} <br><br>
+
+	
 	<script
 		src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
