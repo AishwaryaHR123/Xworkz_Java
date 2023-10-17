@@ -23,7 +23,16 @@
   </ol>
 </nav>
 </nav>
-	<h3>Running in Index Page.....</h3>
+	<h3>Product Saved Successfully....</h3>
+	ProductName : ${dog.name} <br><br>
+	Type: ${dog.type} <br><br>
+	Price: ${dog.price} <br><br>
+	Brand: ${dog.brand} <br><br>
+	Quantity:${dog.quantity} <br><br>
+	Desc: ${dog.desc}<br><br>
+	<h5 style= "color:red"> Total: ${dog.price * dog.quantity} </h5>
+	
+	
 	<script
 		src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
