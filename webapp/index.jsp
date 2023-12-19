@@ -1,11 +1,11 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>x-workz</title>
+<meta charset="ISO-8859-1">
+<title>Spring mvc</title>
+</head>
 <link
 	href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
 	rel="stylesheet"
@@ -18,12 +18,13 @@
 
 <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
-    <li class="breadcrumb-item active" aria-current="page"><a class="btn btn-primary" href="Contact.jsp" role="button">Contact</a></li>
+    <li class="breadcrumb-item"><a class="btn btn-primary" href="Saloon.jsp" role="button">Saloon</a></li>
     
   </ol>
 </nav>
 </nav>
 	<h3>Running in Index Page.....</h3>
+	<form action="bag" method="post"></form>
 	<script
 		src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
